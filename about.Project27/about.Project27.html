@@ -17,7 +17,27 @@
                     <li><em>24/7</em> Customer Support service for any issues</li>
                 </ul>
         </div>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <form action="https://httpbin.org/get" method="get">
+                <fieldset>
+                    <legend>Contact Us</legend>
+                    <p>
+                        <label for="firstName">First Name:</label>
+                        <input type="text" name="firstName" id="firstName" required> <br>
+                    </p>
+                    <p>
+                        <label for="pho">Phone Number:</label>
+                        <input type="tel" name="phoNumber" id="pho" required> <br>
+                    </p>
+                    <p>
+                        <label for="mail" >Mail:</label> <br>
+                        <textarea name="mail" id="mail" cols="31" rows="20"></textarea> <br>
+                    </p>
+                </fieldset> <br>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        
+        <br>
         <footer>
            <p> &copy; <strong>Project27</strong> </p>
         </footer>
