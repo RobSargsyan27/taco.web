@@ -1,14 +1,17 @@
 html {
     font-size: 22px;
+    background-color: beige;
 }
 
-body {
-    min-height: 100vh;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 1rem;
-    border-left: 1px solid #333;
-    border-right: 1px solid #333;
+h1{
+    text-align: center;
+    color: coral;
+    font-family: monospace;
+
+}
+
+ul{
+    color: black;
 }
 
 th, td, caption {
@@ -19,4 +22,5 @@ th, td, caption {
 }
 a{
     text-decoration: none;
+    color: #333;
 }
