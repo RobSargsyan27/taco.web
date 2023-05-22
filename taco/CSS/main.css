@@ -8,9 +8,6 @@ body{
     padding:  0 2rem;
 }
 
-table{
-}
-
 td, th, table caption {
     border: 1px solid black;
     padding: .5rem;
