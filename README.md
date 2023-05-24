@@ -1,3 +1,4 @@
-# This repository is created in order to collect the samples of HTML code, that I made while I was learning HTML.
+# This repository for the web-page of the taco restaurant. It has three linked web-pages and is fully responsive to the device width.
 
-Taco folder collects three web-pages, that were made using moslty HTML.
+## The about.Project27 is a new project, which will be seperated soon!
+
