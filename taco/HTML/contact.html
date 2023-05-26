@@ -23,14 +23,12 @@
         <main>
             <section class="Contact">
                 <h2>Contact Form</h2>
-                <form action="https://httpbin.org">
+                <form action="https://httpbin.org/Anything" target="_blank" method="get">
                             <input type="text" name="name" id="name" autofocus required autocomplete="on" placeholder="Name"> 
 
                             <input type="email" name="Email" id="Email" required autocomplete="on" placeholder="Email"> 
 
-                            <p id="message" >
-                                <textarea name="message"  placeholder="Write your message here." required></textarea> 
-                            </p>
+                            <p contenteditable="true" id="message"></p>
                     <button id="submit" type="submit">Submit</button>
                     <button id="reset" type="reset">Reset</button>
                 </form>
