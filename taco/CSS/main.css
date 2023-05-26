@@ -81,9 +81,9 @@ li a:hover, li a:focus{
 }
 
 .nav_img{
-    margin: 1rem 2rem;
+    margin: 1px;
     display: grid;
-    grid-template-columns: 60vw 30vw;
+    grid-template-columns: 2fr 1fr;
     grid-template-rows: 190px 190px;
     gap: 15px;
     margin: 50px;
@@ -94,8 +94,6 @@ li a:hover, li a:focus{
 }
 
 #taco_1 img{
-    border: transparent;
-    border-radius: 25px;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -103,8 +101,6 @@ li a:hover, li a:focus{
 
 
 #taco_2 img{
-    border: transparent;
-    border-radius: 25px;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -112,8 +108,6 @@ li a:hover, li a:focus{
 
 
 #taco_3 img{
-    border: transparent;
-    border-radius: 25px;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -131,6 +125,8 @@ li a:hover, li a:focus{
 
 #taco_1, #taco_2, #taco_3{
     overflow: hidden;
+    border: transparent;
+    border-radius: 25px;
 }
 
 #taco_1 img:hover,#taco_2 img:hover,#taco_3 img:hover{
