@@ -57,46 +57,87 @@ li a{
     padding:0 1.5vw ;
 }
 
+li a:hover{
+    animation-name: font_animation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
 li a:hover, li a:focus{
     background-color: rgb(1, 2, 67);
     color: whitesmoke;
 }
 
+@keyframes font_animation {
+    from{
+        font-size: 1.2rem;
+    }
+
+    to{
+        font-size: 1.5rem;
+    }
+    
+}
+
 .nav_img{
     margin: 1rem 2rem;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 60vw 30vw;
     grid-template-rows: 190px 190px;
     gap: 15px;
     margin: 50px;
 }
 
-
 #taco_1{
-    background-image: url(/taco/img/taco.1.jpeg);
-    background-size: cover;
-    background-position: center;
+    grid-row:1/3 ;
+}
+
+#taco_1 img{
     border: transparent;
     border-radius: 25px;
-    grid-row:1/3 ;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#taco_2 img{
+    border: transparent;
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#taco_3 img{
+    border: transparent;
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@keyframes taco_pic {
+    from{
+        scale: 1;
+    }
+
+    to{
+        scale: 1.15;
+    }
+}
+
+#taco_1, #taco_2, #taco_3{
     overflow: hidden;
 }
 
-
-#taco_2{
-    background-image: url(/taco/img/taco.2.jpeg);
-    background-size: cover;
-    background-position: center;
-    border: transparent;
-    border-radius: 25px;
-}
-
-#taco_3{
-    background-image: url(/taco/img/taco.3.jpeg);
-    background-size: cover;
-    background-position: center;
-    border: transparent;
-    border-radius: 25px;
+#taco_1 img:hover,#taco_2 img:hover,#taco_3 img:hover{
+    animation-name: taco_pic;
+    animation-duration: 1.3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
 }
 
 /* The menu heading with the menu */
@@ -186,10 +227,6 @@ footer{
     padding: 20px;
 }
 
-textarea{
-
-
-}
 
 
 #name, #Email,button{
@@ -211,10 +248,9 @@ textarea{
     justify-self: left;
 }
 
-#name:hover, #name:focus,#Email:hover, #Email:focus{
+#name:hover, #name:focus,#name:active, #Email:hover, #Email:focus{
     background-color: rgb(0, 0, 99);
-    color: whitesmoke;
-    
+    color: whitesmoke; 
 }
 
 #submit:hover, #submit:focus{
